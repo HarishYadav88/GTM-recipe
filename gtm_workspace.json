@@ -1,0 +1,1206 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2020-05-01 22:27:57",
+    "containerVersion": {
+        "path": "accounts/6001036891/containers/31206877/versions/0",
+        "accountId": "6001036891",
+        "containerId": "31206877",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/6001036891/containers/31206877",
+            "accountId": "6001036891",
+            "containerId": "31206877",
+            "name": "consent-management",
+            "publicId": "GTM-5VB6XMC",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1588371648911",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6001036891/containers/31206877/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "tagId": "10",
+                "name": "Google Analytics",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_PAGEVIEW"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Google Analytics settings}}"
+                    }
+                ],
+                "fingerprint": "1588371708487",
+                "firingTriggerId": [
+                    "4",
+                    "9",
+                    "26"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "tagId": "14",
+                "name": "HotJar",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script data-cmp-vendor=\"s46\" type=\"text/plain\" class=\"cmplazyload\">\n    (function(h,o,t,j,a,r){\n        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\n        h._hjSettings={hjid:123123,hjsv:6};\n        a=o.getElementsByTagName('head')[0];\n        r=o.createElement('script');r.async=1;\n        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\n        a.appendChild(r);\n    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1588371826149",
+                "firingTriggerId": [
+                    "4",
+                    "13"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "tagId": "17",
+                "name": "LinkedIn",
+                "type": "bzi",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "id",
+                        "value": "12345"
+                    }
+                ],
+                "fingerprint": "1588371806782",
+                "firingTriggerId": [
+                    "4",
+                    "16"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "tagId": "23",
+                "name": "Google Ads Conversion Tracking",
+                "type": "awct",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableProductReporting",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionCookiePrefix",
+                        "value": "_gcl"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "12345"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "demo"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1588371743647",
+                "firingTriggerId": [
+                    "11",
+                    "18"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "tagId": "24",
+                "name": "ConsentManager CMP-Code",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<!-- INSERT YOUR ConsentManager.net CMP-Code here -->"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1587897344594",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "paused": true,
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "tagId": "27",
+                "name": "Google Analytics - prevent duplicate fired",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script> \n  window.prevent_duplicate_googleanalytics = true; \n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1588371761744",
+                "firingTriggerId": [
+                    "9"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "triggerId": "4",
+                "name": "cmpEvent GDPR does not apply",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "cmpEvent"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpGDPR}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "0"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1587897344584"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "triggerId": "6",
+                "name": "cmpEvent s11 Microsoft Bing Ads",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "cmpEvent"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpCustomVendorsConsent}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ",s11,"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpGDPR}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1587897344586"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "triggerId": "7",
+                "name": "cmpEvent s7 Facebook Remarketing",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "cmpEvent"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpCustomVendorsConsent}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ",s7,"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpGDPR}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1587897344586"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "triggerId": "9",
+                "name": "cmpEvent s26 Google Analytics",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "cmpEvent"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpCustomVendorsConsent}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ",s26,"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpGDPR}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "https://expense-management.azurewebsites.net/"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{duplicate analytics}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "false"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1588318177614"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "triggerId": "11",
+                "name": "cmpEvent GDPR does not apply CONVERSION Trigger",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "cmpEvent"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpGDPR}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "/getexpense"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1587933422776"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "triggerId": "13",
+                "name": "cmpEvent s46 HotJar.com",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "cmpEvent"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpCustomVendorsConsent}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ",s46,"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpGDPR}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1587897344589"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "triggerId": "16",
+                "name": "cmpEvent s2 LinkedIn",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "cmpEvent"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpCustomVendorsConsent}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ",s2,"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpGDPR}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1587897344590"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "triggerId": "18",
+                "name": "cmpEvent s1 Google Ads CONVERSION Trigger",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "cmpEvent"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpCustomVendorsConsent}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ",s1,"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpGDPR}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "/getexpense/"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1587929221370"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "triggerId": "19",
+                "name": "cmpEvent s1 Google Ads",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "cmpEvent"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpCustomVendorsConsent}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ",s1,"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpGDPR}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1587897344591"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "triggerId": "21",
+                "name": "cmpEvent s974 Piwik Matomo",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "cmpEvent"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpCustomVendorsConsent}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ",s974,"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpGDPR}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1587897344592"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "triggerId": "22",
+                "name": "cmpEvent s987 eTracker",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "cmpEvent"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpCustomVendorsConsent}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ",s987,"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpGDPR}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1587897344592"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "triggerId": "26",
+                "name": "cmpEvent s26 Google Analytics Bestellung",
+                "type": "PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpCustomVendorsConsent}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ",s26,"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cmpGDPR}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "/getexpense"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1587933407077"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "variableId": "3",
+                "name": "cmpGDPR",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "1"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "cmpGDPR"
+                    }
+                ],
+                "fingerprint": "1587897344583"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "variableId": "5",
+                "name": "cmpCustomVendorsConsent",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "cmpCustomVendorsConsent"
+                    }
+                ],
+                "fingerprint": "1587897344585"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "variableId": "8",
+                "name": "Google Analytics settings",
+                "type": "gas",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDomain",
+                        "value": "auto"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useHashAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decorateFormsAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "UA-164559398-1"
+                    }
+                ],
+                "fingerprint": "1588371887571"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "variableId": "12",
+                "name": "cmpPurposesConsent",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "cmpPurposesConsent"
+                    }
+                ],
+                "fingerprint": "1587897344588"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "variableId": "15",
+                "name": "cmpConsentString",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "cmpConsentString"
+                    }
+                ],
+                "fingerprint": "1587897344589"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "variableId": "20",
+                "name": "cmpVendorsConsent",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "cmpVendorsConsent"
+                    }
+                ],
+                "fingerprint": "1587930032302",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "variableId": "25",
+                "name": "cmpGoogleVendorsConsent",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "cmpGoogleVendorsConsent"
+                    }
+                ],
+                "fingerprint": "1587897344593",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "variableId": "28",
+                "name": "duplicate analytics",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function ()\n{ \n  return (\"prevent_duplicate_googleanalytics\" in window); \n}\n"
+                    }
+                ],
+                "fingerprint": "1588371914650",
+                "formatValue": {}
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "6001036891",
+                "containerId": "31206877",
+                "type": "EVENT",
+                "name": "Event"
+            }
+        ],
+        "fingerprint": "1588372077593",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6001036891/containers/31206877/versions/0?apiLink=version"
+    }
+}
